@@ -27,8 +27,12 @@ font-family: 'Raleway-Regular';
     justify-content: space-between;
     align-items: center;
 }
-.LinkSize{
+.LinkSize1{
     width: 45%;
+}
+.LinkSize2{
+    width: 140px;
+    height: 99px;
 }
 .colorlink1{
     color: blue;
