@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src:  url('Raleway-Regular.ttf') format('truetype');
+}
+
+
+*
+{
+font-family: 'Raleway-Regular';
+}
+.DecorationNone{
+    text-decoration: none;
+}
+
+.FlexCenter {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.FlexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.FlexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LinkSize{
+    width: 45%;
+}
+.colorlink1{
+    color: blue;
+}
+.colorlink2{
+    color: black;
+}
