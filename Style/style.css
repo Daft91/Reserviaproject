@@ -4,16 +4,19 @@
 }
 
 
-*
+html, body
 {
 font-family: 'Raleway-Regular';
 }
 .DecorationNone{
     text-decoration: none;
 }
+h5 {
+    color: grey;
+}
 
 .FlexCenter {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -27,6 +30,11 @@ font-family: 'Raleway-Regular';
     justify-content: space-between;
     align-items: center;
 }
+
+/* NAV */
+.sizeNav{
+    height: 100px;
+}
 .LinkSize1{
     width: 45%;
 }
@@ -39,4 +47,14 @@ font-family: 'Raleway-Regular';
 }
 .colorlink2{
     color: black;
+}
+.bordureNav{
+    border-top: 1px solid blue;
+}
+}
+.bordureNav23{
+    border-top: 1px solid transparent;
+}
+.marglogo{
+    margin-bottom: 7px;
 }
