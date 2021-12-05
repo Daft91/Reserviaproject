@@ -1,17 +1,16 @@
-@font-face {
-    font-family: 'Raleway-Regular';
-    src:  url('Raleway-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
+
 
 
 html, body
 {
-font-family: 'Raleway-Regular';
+font-family: 'Raleway','sans-serif';
 }
 .DecorationNone{
     text-decoration: none;
 }
-h5 {
+p 
+{
     color: grey;
 }
 
@@ -51,10 +50,91 @@ h5 {
 .bordureNav{
     border-top: 1px solid blue;
 }
-}
+
 .bordureNav23{
     border-top: 1px solid transparent;
 }
 .marglogo{
     margin-bottom: 7px;
+}
+.textGras{
+    font-weight: bold;
+}
+
+/* Header */
+
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.iconSize {
+    height: 50px;
+    width: 50px;
+}
+
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.backGrey{
+background-color: #f2f2f2;
+}
+
+.backBlue{
+    background-color: rgba(0, 89, 255, 0.849);
+}
+
+.bordureNone{
+  border: none;  
+}
+
+.paddingSearch{
+    padding-left: 20px;
+}
+
+.buttonSearch{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Filtres section*/
+
+
+.margFiltre{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.filtre{
+   display: flex;
+   align-items: center; 
+}
+
+
+.margFiltreTitre{
+    margin-right: 20px;
+}
+
+.filtreTexteIcons{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreIcons{
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color:#0065fc;
+    background-color: #deebff;
+
 }
